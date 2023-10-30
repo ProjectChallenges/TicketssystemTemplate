@@ -2,7 +2,7 @@
 
 This Java application, created using IntelliJ, demonstrates a basic ticket management system with JDBC integration. The system allows users to create new users, tickets, and assign tickets to users, among other functionalities. It leverages a MySQL database for data storage and retrieval.
 
-You will find the Main App from the Ticket System in this Java Class : src/foreignKeysTicketSystemAktuell
+You will find the Main App from the Ticket System in this Java Class : [src/foreignKeysTicketSystemAktuell](https://github.com/ProjectChallenges/TicketssystemTemplate/blob/7feeb5c557d8ca9ebc7acb2028a5a6ee63375bb2/src/foreignKeysTicketSystemAktuell/TicketAssignment_FK_JDBC_FehlerBehandlung.java)
 
 ## Features
 
