@@ -39,3 +39,49 @@ The application employs basic exception handling to manage errors related to inv
 ## Contributors
 
 - https://github.com/GallonSchimmer - Initial work
+
+
+
+
+
+
+## Handbook for Implementing the Ticket Management System
+
+### Overview
+
+The Ticket Management System is designed to streamline the process of managing and tracking tickets within the organization. It allows for the creation of new users, generation of new tickets, assignment of tickets to users, updating ticket statuses, and listing users along with their assigned tickets and statuses.
+
+### Setup
+
+To implement the Ticket Management System, follow the steps outlined below:
+
+1. Ensure that the Java Development Kit (JDK), IntelliJ IDEA, and a MySQL database are installed on the system.
+2. Clone the repository or download the source code of the Ticket Management System.
+3. Set up a MySQL database named `ticket_management` on `localhost:3306` or modify the database connection settings within the code to match the appropriate database credentials.
+4. Compile and run the `TicketAssignment_FK_JDBC_FehlerBehandlung` class to launch the application.
+
+### Usage Guide
+
+1. Creating a New User:
+   - Provide the username and department details for the new user as prompted by the system.
+
+2. Creating a New Ticket:
+   - Enter the ticket description to create a new ticket within the system.
+
+3. Assigning a Ticket to a User:
+   - Input the ticket ID and user ID to assign a specific ticket to a user.
+
+4. Changing Ticket Status:
+   - Enter the ticket ID and the new status to update the status of a specific ticket.
+
+5. Listing Users, Their Tickets, and Statuses:
+   - Retrieve and display a list of all users, their assigned tickets, and the corresponding statuses.
+
+### Exception Handling
+
+The system incorporates robust exception handling to manage various errors, including invalid input, SQL query execution failures, and database connectivity issues. It utilizes Java's logging framework to capture and display detailed error messages, ensuring effective error resolution and system stability.
+
+### Customization
+
+The Ticket Management System's source code can be customized and extended to meet the specific requirements of your organization. You can enhance the functionality, incorporate additional features, or refine the error handling mechanism based on your unique business needs.
+
